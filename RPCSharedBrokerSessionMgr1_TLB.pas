@@ -100,7 +100,7 @@ const
 
 // Constants for enum ISharedBrokerConnection
 type
-  ISharedBrokerConnection = TOleEnum;
+  ISharedBrokerConnection = OleVariant;
 const
   Failed = $00000000;
   New = $00000001;
