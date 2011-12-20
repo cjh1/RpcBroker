@@ -39,16 +39,15 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="11">
       <Unit0>
         <Filename Value="RPCSharedBrokerSessionMgr1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="47" Y="19"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit0>
@@ -56,10 +55,12 @@
         <Filename Value="RPCSharedBrokerSessionMgr1_TLB.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="RPCSharedBrokerSessionMgr1_TLB"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="538"/>
+        <CursorPos X="91" Y="565"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit1>
       <Unit2>
@@ -69,7 +70,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit2>
       <Unit3>
@@ -80,7 +81,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit3>
       <Unit4>
@@ -91,11 +92,146 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\fpc\2.4.4\source\packages\winunits-base\src\oleserver.pp"/>
+        <UnitName Value="OleServer"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="38" Y="9"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Trpcb.pas"/>
+        <UnitName Value="Trpcb"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="40"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Xwbut1.pas"/>
+        <UnitName Value="Xwbut1"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="27" Y="16"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Loginfrm.pas"/>
+        <UnitName Value="Loginfrm"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="13" Y="26"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="SgnonCnf.pas"/>
+        <UnitName Value="Sgnoncnf"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="10"/>
+        <CursorPos X="6" Y="37"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="XWBRich20.PAS"/>
+        <UnitName Value="XWBRich20"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="85" Y="21"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit10>
     </Units>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <JumpHistory Count="17" HistoryIndex="16">
+      <Position1>
+        <Filename Value="RPCSharedBrokerSessionMgr1_TLB.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="RPCSharedBrokerSessionMgr1_TLB.pas"/>
+        <Caret Line="565" Column="90" TopLine="538"/>
+      </Position2>
+      <Position3>
+        <Filename Value="RPCSharedBrokerSessionMgr1_TLB.pas"/>
+        <Caret Line="103" Column="3" TopLine="76"/>
+      </Position3>
+      <Position4>
+        <Filename Value="RPCSharedBrokerSessionMgr1_TLB.pas"/>
+        <Caret Line="565" Column="90" TopLine="538"/>
+      </Position4>
+      <Position5>
+        <Filename Value="RPCSharedBrokerSessionMgr1_TLB.pas"/>
+        <Caret Line="102" Column="54" TopLine="76"/>
+      </Position5>
+      <Position6>
+        <Filename Value="RPCSharedBrokerSessionMgr1_TLB.pas"/>
+        <Caret Line="556" Column="79" TopLine="538"/>
+      </Position6>
+      <Position7>
+        <Filename Value="RPCSharedBrokerSessionMgr1_TLB.pas"/>
+        <Caret Line="565" Column="90" TopLine="538"/>
+      </Position7>
+      <Position8>
+        <Filename Value="RPCSharedBrokerSessionMgr1_TLB.pas"/>
+        <Caret Line="103" Column="39" TopLine="76"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Trpcb.pas"/>
+        <Caret Line="1" Column="1" TopLine="4"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Xwbut1.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Xwbut1.pas"/>
+        <Caret Line="15" Column="30" TopLine="1"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Xwbut1.pas"/>
+        <Caret Line="125" Column="26" TopLine="98"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Loginfrm.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Loginfrm.pas"/>
+        <Caret Line="26" Column="13" TopLine="1"/>
+      </Position14>
+      <Position15>
+        <Filename Value="SgnonCnf.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position15>
+      <Position16>
+        <Filename Value="SgnonCnf.pas"/>
+        <Caret Line="37" Column="6" TopLine="10"/>
+      </Position16>
+      <Position17>
+        <Filename Value="XWBRich20.PAS"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position17>
+    </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="9"/>
@@ -109,7 +245,6 @@
       <CompilerPath Value="$(CompPath)"/>
     </Other>
   </CompilerOptions>
-  <SkipCheckLCLInterfaces Value="True"/>
   <Debugging>
     <Exceptions Count="3">
       <Item1>
