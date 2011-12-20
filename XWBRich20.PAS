@@ -235,7 +235,7 @@ type
     property BorderStyle;
     property BorderWidth;
     property Color;
-    property Ctl3D;
+//    property Ctl3D;
     property DragCursor;
     property DragKind;
     property DragMode;
@@ -244,14 +244,14 @@ type
     property HideSelection;
     property URLDetect;            // New URL Detect property
     property HideScrollBars;
-    property ImeMode;
-    property ImeName;
+//    property ImeMode;
+//    property ImeName;
     property Constraints;
     property Lines;
     property MaxLength;
     property ParentBiDiMode;
     property ParentColor;
-    property ParentCtl3D;
+//    property ParentCtl3D;
     property ParentFont;
     property ParentShowHint;
     property PlainText;
