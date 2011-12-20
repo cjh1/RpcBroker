@@ -1,7 +1,9 @@
 program RPCSharedBrokerSessionMgr1;
 
+{$MODE Delphi}
+
 uses
-  Forms,
+  Forms, Interfaces,
   RPCSharedBrokerSessionMgr1_TLB in 'RPCSharedBrokerSessionMgr1_TLB.pas',
   uSharedBroker1 in 'uSharedBroker1.pas' {SharedBroker: CoClass},
   fVistaBar in 'fVistaBar.pas' {frmVistABar},

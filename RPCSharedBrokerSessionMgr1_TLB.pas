@@ -9,6 +9,8 @@
 
 unit RPCSharedBrokerSessionMgr1_TLB;
 
+{$MODE Delphi}
+
 // ************************************************************************ //
 // WARNING                                                                    
 // -------                                                                    
@@ -46,7 +48,7 @@ unit RPCSharedBrokerSessionMgr1_TLB;
 {$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers. 
 interface
 
-uses Windows, ActiveX, Classes, Graphics, OleServer, OleCtrls, StdVCL;
+uses Windows, ActiveX, Classes, Graphics, OleServer{, OleCtrls, StdVCL};
 
 // *********************************************************************//
 // GUIDS declared in the TypeLibrary. Following prefixes are used:        

@@ -9,6 +9,8 @@
 
 unit fDebugInfo;
 
+{$MODE Delphi}
+
 interface
 
 uses
@@ -30,6 +32,6 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.lfm}
 
 end.

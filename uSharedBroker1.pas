@@ -10,10 +10,12 @@
 
 unit uSharedBroker1;
 
+{$MODE Delphi}
+
 interface
 
 uses
-  Windows, ComObj, ActiveX, AxCtrls, Classes, RPCSharedBrokerSessionMgr1_TLB, StdVcl,
+  Windows, ComObj, ActiveX, {AxCtrls,} Classes, RPCSharedBrokerSessionMgr1_TLB, {StdVcl,}
   Trpcb;
 
 const
@@ -317,8 +319,8 @@ var
 implementation
 
 //uses ComServ;
-uses Messages, ComServ, SysUtils, Forms, {lmdnonvs,} Math, XWBut1,
-     syncobjs, Rpcconf1, MfunStr;
+uses Messages, ComServ, SysUtils, Forms, {lmdnonvs,} Math, Xwbut1,
+     syncobjs, Rpcconf1, Mfunstr;
 
 const
   kUniqueClientIdDefault: Longword = 0;

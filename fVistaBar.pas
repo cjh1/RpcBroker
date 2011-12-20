@@ -9,6 +9,8 @@
 
 unit fVistaBar;
 
+{$MODE Delphi}
+
 interface
 
 uses
@@ -60,8 +62,8 @@ implementation
 
 uses uSharedBroker1, frmVistAAbout;
 
-{$R *.DFM}
-{$R *.RES}
+{$R *.lfm}
+{$R *.res}
 
 procedure TfrmVistABar.FormActivate(Sender: TObject);
 begin
