@@ -13,7 +13,7 @@ interface
 
 Uses
 Sysutils, Classes, Messages, IniFiles,
-Dialogs, Registry;
+Dialogs, Registry, Windows;
 
 const
   xwb_ConnectAction = wm_User + 200;
