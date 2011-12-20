@@ -12,7 +12,7 @@ unit Xwbut1;
 interface
 
 Uses
-Sysutils, Classes, Messages, WinProcs, IniFiles,
+Sysutils, Classes, Messages, IniFiles,
 Dialogs, Registry;
 
 const

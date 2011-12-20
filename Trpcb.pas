@@ -37,7 +37,7 @@ interface
 uses
   {Delphi standard}
   Classes, Controls, Dialogs, {DsgnIntf,} Forms, Graphics, Messages, SysUtils,
-  WinProcs, WinTypes, Windows,
+  Windows,
   extctrls, {P6}
   {VA}
   XWBut1, {RpcbEdtr,} MFunStr, Hash;  //P14 -- pack split
