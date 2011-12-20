@@ -18,7 +18,7 @@
 unit XWBRich20;
 interface
 uses LMessages, Windows, SysUtils, Classes, Controls, Forms,
-  Menus, Graphics, StdCtrls, RichEdit, ToolWin, ImgList, ExtCtrls, ComCtrls;
+  Menus, Graphics, StdCtrls, RichEdit, ToolWin, ImgList, ExtCtrls, ComCtrls, LCLType;
 
 type
   TXWBCustomRichEdit = class;
