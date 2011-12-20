@@ -184,7 +184,7 @@ type
     procedure DestroyWnd; override;
     procedure RequestSize(const Rect: TRect); virtual;
     procedure SelectionChange; dynamic;
-    procedure DoSetMaxLength(Value: Integer); override;
+    procedure DoSetMaxLength(Value: Integer);
     function GetCaretPos: TPoint; override;
     function GetSelLength: Integer; override;
     function GetSelStart: Integer; override;
@@ -211,10 +211,10 @@ type
   public
     constructor Create(AOwner: TComponent); override;
     destructor Destroy; override;
-    procedure Clear; override;
+    procedure Clear;
     function FindText(const SearchStr: string;
       StartPos, Length: Integer; Options: TSearchTypes): Integer;
-    function GetSelTextBuf(Buffer: PChar; BufSize: Integer): Integer; override;
+    function GetSelTextBuf(Buffer: PChar; BufSize: Integer): Integer;
     procedure Print(const Caption: string); virtual;
     class procedure RegisterConversionFormat(const AExtension: string;
       AConversionClass: TConversionClass);
