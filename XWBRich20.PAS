@@ -1345,8 +1345,8 @@ begin
   // RichEd20 does not pass the WM_RBUTTONUP message to defwndproc,
   // so we get no WM_CONTEXTMENU message.  Simulate message here.
   if Win32MajorVersion < 5 then
-    Perform(WM_CONTEXTMENU, Handle, LParam(PointToSmallPoint(
-      ClientToScreen(SmallPointToPoint(Message.Pos)))));
+    Perform(WM_CONTEXTMENU, Handle, LParam(ClientToScreen(SmallPointToPoint(Message.Pos))){LParam(PointToSmallPoint(
+      ClientToScreen(SmallPointToPoint(Message.Pos))))});
   inherited;
 end;
 
