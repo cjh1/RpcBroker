@@ -1266,7 +1266,7 @@ begin
   inherited CreateParams(Params);
 
 // USE RICHEDIT_CLASSA use ANSI version not Unicode
-  CreateSubClass(Params, RICHEDIT_CLASSA);
+  CreateSubClass(Params, RICHEDIT_CLASS);
 
   with Params do
   begin
