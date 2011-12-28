@@ -1118,7 +1118,7 @@ begin
       else TextType := SF_TEXT;
       SendMessage(RichEdit.Handle, EM_STREAMIN, TextType, Longint(@EditStream));
       if EditStream.dwError <> 0 then
-        raise EOutOfResources.Create(sRichEditLoadFail);
+        raise EOutOfResources.Create('sRichEditLoadFail');
     end;
 
   finally
@@ -1148,7 +1148,7 @@ begin
     else TextType := SF_RTF;
     SendMessage(RichEdit.Handle, EM_STREAMOUT, TextType, Longint(@EditStream));
     if EditStream.dwError <> 0 then
-      raise EOutOfResources.Create(sRichEditSaveFail);
+      raise EOutOfResources.Create('sRichEditSaveFail');
   finally
     if FConverter = nil then Converter.Free;
   end;
