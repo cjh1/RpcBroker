@@ -37,11 +37,10 @@ interface
 uses
   {Delphi standard}
   Classes, Controls, Dialogs, {DsgnIntf,} Forms, Graphics, Messages, SysUtils,
-  WinProcs, WinTypes, Windows,
-  extctrls, {P6}
+  Windows, extctrls, {P6}
   {VA}
   XWBut1, {RpcbEdtr,} MFunStr, Hash,
-  ComObj, ActiveX, OleCtrls, trpcb,
+  ComObj, ActiveX, trpcb,
     VERGENCECONTEXTORLib_TLB;
 
 const
