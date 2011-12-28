@@ -1422,7 +1422,7 @@ begin
   if HideScrollBars <> Value then
   begin
     FHideScrollBars := value;
-    RecreateWnd;
+    RecreateWnd(Self);
   end;
 end;
 
@@ -1440,7 +1440,7 @@ begin
  if URLDetect <> Value then
   begin
    FURLDetect:= Value;
-   RecreateWnd;
+   RecreateWnd(Self);
   end;
 end;
 
