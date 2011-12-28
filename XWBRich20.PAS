@@ -1003,7 +1003,10 @@ begin
   end;
 end;
 
-function AdjustLineBreaks(Dest, Source: PChar): Integer; assembler;
+function AdjustLineBreaks(Dest, Source: PChar): Integer;
+begin
+{assembler;
+
 asm
         PUSH    ESI
         PUSH    EDI
@@ -1033,6 +1036,7 @@ asm
         SUB     EAX,EDX
         POP     EDI
         POP     ESI
+        }
 end;
 
 function StreamSave(dwCookie: Longint; pbBuff: PByte;
