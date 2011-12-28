@@ -12,7 +12,7 @@ unit RpcSLogin;
 interface
 
 Uses
-Sysutils, Classes, Messages, WinProcs, IniFiles,
+Sysutils, Classes, Messages, IniFiles,
 Dialogs, Registry,
 trpcb, ccowrpcbroker;
 
