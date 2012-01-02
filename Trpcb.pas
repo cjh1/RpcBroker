@@ -37,7 +37,7 @@ interface
 uses
   {Delphi standard}
   Classes, Controls, Dialogs, {DsgnIntf,} Forms, Graphics, Messages, SysUtils,
-  Windows,
+  Windows, win32int,
   extctrls, {P6}
   {VA}
   XWBut1, {RpcbEdtr,} MFunStr, Hash;  //P14 -- pack split
@@ -1579,18 +1579,18 @@ begin
   Stat2 := []; {sWinVisForm,sWinVisApp,sIconized}
 
   If anApplication.MainForm <> nil then
-    If IsWindowVisible(anApplication.MainForm.Handle)
+    If IsWindowVisible(TWin32WidgetSet(anApplication).AppHandle)
       then Stat2 := Stat2 + [sWinVisForm];
 
-  If IsWindowVisible(anApplication.Handle)
+  If IsWindowVisible(TWin32WidgetSet(anApplication).AppHandle)
       then Stat2 := Stat2 + [sWinVisApp];
 
-  If IsIconic(anApplication.Handle)
+  If IsIconic(TWin32WidgetSet(anApplication).AppHandle)
       then Stat2 := Stat2 + [sIconized];
 
   Result := true;
   If sIconized in Stat2 then begin {A}
-    j := SendMessage(anApplication.Handle,WM_SYSCOMMAND,SC_RESTORE,0);
+    j := SendMessage(TWin32WidgetSet(anApplication).AppHandle,WM_SYSCOMMAND,SC_RESTORE,0);
     Result := j<>0;
   end;
   If Stat2 * [sWinVisForm,sIconized] = [] then begin {S}
